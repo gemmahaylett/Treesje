@@ -7,34 +7,20 @@
 	<title>Full Page Background Image | CSS #1</title>
 	
 	<style>
-		
-		img.bg {
-			/* Set rules to fill background 
-			min-height: 100%;
-			min-width: 1024px;*/
 
-			/* Set rules to fill background */
-			min-height: 100%;
-			min-width: 456px;
+		body{
+			margin: 0px;
+		}
 
-			/* Set rules to fill background 
-			min-height: 960px;
-			min-width: 100%;*/
-			
-			/* Set up proportionate scaling */
+		.bg {
 			width: 100%;
-			height: auto;
-
-			/* Set up proportionate scaling 
 			height: 100%;
-			width: auto;*/
-			
-			/* Set up positioning 
-			position: fixed;
-			top: 0;
-			left: 0;*/
+		}
 
-			margin: 0px auto;
+		@media screen and (max-width: 1280px){
+			img.bg {
+				width: 1280px;
+   			height: 800px; }
 		}
 		
 	</style>
@@ -42,7 +28,7 @@
 
 <body>
 
-	<img src="treesje_bg.jpg" class="bg">
+	<img src="treesje_bg.jpg" align="middle" class="bg">
 	
 </body>
 
